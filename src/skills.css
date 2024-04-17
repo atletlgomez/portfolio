@@ -1,0 +1,64 @@
+#skillbox {
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.html,
+.react,
+.css,
+.js,
+.sql,
+.mongodb,
+.comingsoon {
+  border: 1px solid;
+  border: 30px solid white;
+  border-radius: 100px;
+  box-shadow: 9px 9px 20px #908f90;
+  padding-top: 50px;
+}
+
+.react {
+  background-color: rgb(94, 211, 244, 0.3);
+}
+
+.html {
+  background-color: rgb(230, 77, 38, 0.3);
+}
+
+.mongodb {
+  background-color: rgb(1, 148, 65, 0.3);
+}
+
+.js {
+  background-color: rgb(240, 219, 78, 0.3);
+}
+
+.css {
+  background-color: rgb(27, 115, 186, 0.3);
+}
+
+.sql {
+  background-color: rgb(74, 138, 167, 0.3);
+}
+
+#skillsettitle h1 {
+  font-size: 100px;
+  margin-bottom: 80px;
+}
+
+.comingsoon {
+  width: 700px;
+  height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(174, 173, 173, 0.3);
+  color: black;
+  font-size: 50px;
+}
+
+.skillbox {
+  margin-bottom: 50px;
+}

@@ -1,0 +1,31 @@
+@font-face {
+  font-family: Quirk;
+  src: url(/fonts/QuirkChick-ax4pg.ttf);
+}
+
+#name {
+  color: rgb(122, 50, 51, 0.3);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 200px;
+  font-family: "Shrikhand", serif;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-shadow: 9px 9px 20px #908f90;
+  margin-top: 100px;
+}
+
+#speech {
+  color: black;
+  font-size: 50px;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: rgb(255, 255, 255);
+  text-shadow: 9px 9px #908f90;
+  /* font-family: "Shrikhand", serif; */
+  font-family: "Quirk";
+  font-weight: 400;
+  font-style: normal;
+}
